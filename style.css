@@ -1,0 +1,230 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap')
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.main{
+    background-image: url("Assests/Images/bg.jpeg");
+    height: 80vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.44;
+    background-color: black;
+    position: absolute;
+    top: 0;
+
+}
+.hero{
+    font-family: "Martel Sans", sans-serif;
+   
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    gap: 23px;
+    text-align: center;
+}
+nav img{
+    height: 83px;
+    background: transparent;
+    position: relative;
+    z-index: 10;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 80vw;
+    margin: auto;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero> :first-child{
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+.hero> :nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+.hero> :nth-child(3){
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+body{
+    background: black;
+}
+.btn{
+    padding: 3px 8px;
+    font-weight: bold;
+    background: white;
+    background-color: rgba(23,23, 23, 0.2);
+    color: white;
+    font-weight: 10;
+    border: 1px solid rgba(239, 231, 231, 0.2);
+}
+.btn-red{
+background: red;
+color: white;
+padding: 3px 24px;
+border-radius: 4px;
+
+}
+.btn-red-sm{
+    background: red;
+    color: white;
+    
+    
+}
+.main input{
+    padding: 6px 6px 6px 6px;
+border-radius: 4px;
+background-color: rgba(23,23, 23, 0.2);
+font-size: 10px;
+font-weight: 900;
+border: 1px solid rgba(240, 233, 233, 0.2);
+color: white;
+}
+.hero-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+}
+.boundary{
+    height: 5px;
+    width: 100vw;
+    background: rgb(63, 62, 62);
+    position: relative;
+    top: 90px;
+}
+.first{
+    color: white;
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.secImage{
+    width: 20vw;
+    position: relative;
+    left: 100px;
+    z-index: 10;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    position: relative;
+    left: 50px;
+}
+
+.text :first-child{
+    font-size: 48px;
+    font-weight: 900;
+}
+.text :nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+    position: relative;
+    top: 10px;
+}
+.text :nth-child(3){
+    font-size: 20px;
+    font-weight: 400;
+}
+.secImage video{
+    position: absolute;
+    right: 0;
+    top: 98px;
+    left: 85px;
+}
+.secImage2{
+    position: relative;
+    top: 120px;
+    right: 10px;
+
+    
+}
+.text2{
+display: flex;
+flex-direction: column;
+    position: relative;
+    left: 200px;
+    width: 70vw;
+    top: 50px;
+   gap: 14px;
+}
+.text2 :first-child{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.text2 :nth-child(2){
+    font-size: 40px;
+    font-weight: bolder;
+    
+}
+.text2 :nth-child(3){
+    font-size: 24px;
+    font-weight: 100;
+}
+.faq{
+background-color: black;
+color: white;
+padding: 34px;
+position: relative;
+top:45px;
+text-align: center;
+font-size: 24px;
+
+}
+.faqbox{
+    display: flex;
+    padding: 20px;
+    background: rgb(69, 67, 67);
+    margin: 24px auto;
+    position: relative;
+    top: 34px;
+    justify-content: space-between;
+    max-width: 40vw;
+    
+}
+.faqbox svg{
+    filter:invert(1)
+}
+.faqbox:hover{
+    background-color: #171414;
+    transition:  all 1s ease-out;
+    
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    margin: auto;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    color: white;
+    padding: 2px 34px;
+    text-align: center;
+}
